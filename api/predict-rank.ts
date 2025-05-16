@@ -87,6 +87,6 @@ app.post('/predict-rank', async ({ body }) => {
   }
 })
 
-app.listen(3000)
+export default app;
 
 console.log('🚀 KEAM Rank Predictor running at http://localhost:3000')
